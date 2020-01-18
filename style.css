@@ -35,8 +35,8 @@ hr {
 }
 
 .btn-primary {
-	background-color: #F05F44 !important;
-	border-color: #F05F44 !important;
+	background-color: #F05F44 ;
+	border-color: #F05F44 ;
 }
 /*   There can be problems with other programs tho - when u push IMPORTANT
 so its better to maybe put :ACTIVE;
