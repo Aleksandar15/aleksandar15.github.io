@@ -1,0 +1,69 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(./header.jpg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	font-size: 3rem;
+	color: #e2dbdb;
+}
+
+hr {
+	border-color: #F05F44;
+	border-width: 3px;
+	max-width: 65px;
+}
+
+.buffer {
+	height: 10rem;
+	/*if its 50rem it can appear/dissapear whenever I do it scrolling*/
+}
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+	/*the Same shit as class="text-uppercase*/
+	/*background-color: #F05F44; - - - Works here too*/
+}
+
+.btn-primary {
+	background-color: #F05F44 !important;
+	border-color: #F05F44 !important;
+}
+/*   There can be problems with other programs tho - when u push IMPORTANT
+so its better to maybe put :ACTIVE;
+When I remove those !important it tunrs blue after a click
+It could be until link attacked(but not rly?
+Huh i have link but it remains blue)
+Yep this is a MUST-- When working there's link or no*/
+
+.btn-primary:hover {
+	background-color: #ee4b08 ;
+	border-color: #ee4b08 ;
+	border-width: 4px;
+	/*Those importants seem to work on their own  --ONLY with link,
+	But if no-link-clcik it remains blue*/
+}
+
+/*.btn-primary:active {
+	background-color: #F05F44 !important;
+	border-color: #F05F44 !important;
+}   */
+ /*  This WORKS too but !important
+ so u dont even need this if u put important everywhere*/
+
+.btn-xl {
+	padding: 1rem 2rem;
+	background-color: #F05F44 ;
+	border-color: #F05F44 ;
+	/*Nope, adding background color i border-color
+	won't fix Click into blue shit*/
+}
